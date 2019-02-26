@@ -1,0 +1,95 @@
+﻿html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: unset;
+    margin-top: unset;
+    margin-bottom: unset;
+    background-image: linear-gradient(126deg, #8f0abb 0%, #5f0a87 64%);
+}
+
+hr {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+footer p {
+    text-align: center;
+}
+
+.title-bar {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Arial Nova';
+    font-size: 44px;
+}
+
+.widgetHolder {
+    display: inline-block;
+    width: 17%;
+    height: 31%;
+    border: solid;
+    transition: all 1.5s ease-in-out;
+    float: left;
+    opacity: 0;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 8px;
+}
+
+.widgetHolder:hover {
+    transform: scale(1.1);
+}
+
+.widgetHolder:nth-of-type(5n+1) {
+    margin-left: 5%;
+}
+
+.widgetHolder:nth-of-type(5n+5) {
+    margin-right: 5%;
+}
+
+.widgetHolders {
+    height: 89%;
+}
+
+.header-area {
+    height: 5%;
+}
+
+#text {
+    visibility: hidden;
+}
+
+.active {
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -ms-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+.widget-header {
+    font-family: 'Lucida Sans Unicode';
+    font-size: 1.75vw;
+    text-align: center;
+    padding-bottom: 20px;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.widget-content {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+footer p {
+    margin: auto;
+    display: table;
+}

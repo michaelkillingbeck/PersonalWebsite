@@ -1,0 +1,17 @@
+﻿@model CommonComponents.Widget
+@{ 
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+<body>
+    <div class="widget">
+        <div class="widget-header">@Html.Raw(Model.Header)</div>
+        @foreach (var line in Model.Content)
+        {
+            <div class="widget-content">@line</div>
+        }
+    </div>
+</body>
+</html>
